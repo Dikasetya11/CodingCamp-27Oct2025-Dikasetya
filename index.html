@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list dika</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+
+    <header>
+        <h1>To-Do List dika</h1>
+    </header>
+
+    <main>
+        <section class="todo-app">
+            <input type="text" id="todo-input" placeholder="Add a new task..."/>
+            <input type="date" id="todo-date" placeholder="select due date"/>
+            <button id="add-btn">Add</button>
+            <ul id="todo-list"></ul>
+        </section>
+
+        <section>
+            <button id="clear-completed-btn">delete all tasks</button>
+            <button id="filter-btn">Filter</button>
+        </section>
+
+        <section>
+            <h2>List of tasks</h2>
+            <ul id="task-list">
+
+                <li>no tasks added yet</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My To-Do List.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+</html>
